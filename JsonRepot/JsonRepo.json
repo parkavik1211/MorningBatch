@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To validate login with invalid username and valid password",
+        "description": "",
+        "id": "to-validate-login-functionality;to-validate-login-with-invalid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2371962500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the browser and max the window",
+            "match": {
+              "location": "StepDefinition.to_launch_the_browser_and_max_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1424482800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To launch the url of the given application",
+            "match": {
+              "location": "StepDefinition.to_launch_the_url_of_the_given_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183103800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To pass the invalid username in email field",
+            "match": {
+              "location": "StepDefinition.to_pass_the_invalid_username_in_email_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105618900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To pass the valid passowrd in password field",
+            "match": {
+              "location": "StepDefinition.to_pass_the_valid_passowrd_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65362700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To click the login button",
+            "match": {
+              "location": "StepDefinition.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222958500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To close the browser",
+            "match": {
+              "location": "StepDefinition.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate Login functionality",
+    "description": "",
+    "id": "to-validate-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/login.feature",
+    "tags": []
+  }
+]
